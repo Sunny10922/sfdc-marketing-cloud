@@ -45,12 +45,6 @@
       "url": "https://sfdc-marketing-cloud.herokuapp.com/journeybuilder/validate"
     }
   },
-  "wizardSteps": [
-    {
-      "label": "Configure Activity",
-      "key": "step1"
-    }
-  ],
   "userInterfaces": {
     "configModal": {
       "height": 600,
@@ -64,8 +58,8 @@
         "inArguments": [
           {
             "emailAddress": {
-              "dataType": "text",
-              "isNullable": true,
+              "dataType": "Email",
+              "isNullable": false,
               "direction": "in"
             }
           }
